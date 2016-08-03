@@ -47,6 +47,7 @@
 		9CC5D2661D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2591D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png */; };
 		9CC5D2671D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.04 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D25A1D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.04 AM.png */; };
 		9CC5D2681D52504800D8108A /* pills-blue-icon-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D25B1D52504800D8108A /* pills-blue-icon-6.png */; };
+		9CC5D26A1D5255A400D8108A /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2691D5255A400D8108A /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +148,7 @@
 		9CC5D2591D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-07-11 at 9.57.47 AM.png"; path = "../../finalugx/dontlose/Screen Shot 2016-07-11 at 9.57.47 AM.png"; sourceTree = "<group>"; };
 		9CC5D25A1D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.04 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-07-11 at 9.57.04 AM.png"; path = "../../finalugx/dontlose/Screen Shot 2016-07-11 at 9.57.04 AM.png"; sourceTree = "<group>"; };
 		9CC5D25B1D52504800D8108A /* pills-blue-icon-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pills-blue-icon-6.png"; path = "../../finalugx/dontlose/pills-blue-icon-6.png"; sourceTree = "<group>"; };
+		9CC5D2691D5255A400D8108A /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../Documents/iOS/Assets.xcassets/AppIcon.appiconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +249,7 @@
 		9C1EF3F11D50DB26007E04A6 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				9CC5D2691D5255A400D8108A /* AppIcon.appiconset */,
 				9CC5D24F1D52504800D8108A /* terms.png */,
 				9CC5D2501D52504800D8108A /* lock.png */,
 				9CC5D2511D52504800D8108A /* datagather.png */,
@@ -420,6 +423,7 @@
 				9CC5D2661D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png in Resources */,
 				9CC5D24E1D52502100D8108A /* whatis.png in Resources */,
 				9CC5D25F1D52504800D8108A /* Syringe-blue-icon.png in Resources */,
+				9CC5D26A1D5255A400D8108A /* AppIcon.appiconset in Resources */,
 				9CC5D2601D52504800D8108A /* Microscope-blue-icon.png in Resources */,
 				9CC5D25E1D52504800D8108A /* datagather.png in Resources */,
 				9CC5D2621D52504800D8108A /* scope.png in Resources */,
