@@ -92,7 +92,7 @@
 		9C1EF3F21D50DB3C007E04A6 /* ugxlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ugxlogo.png; sourceTree = "<group>"; };
 		9C1EF3F41D50DC86007E04A6 /* joinstudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joinstudy.png; sourceTree = "<group>"; };
 		9C1EF3FA1D50E61E007E04A6 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../../../Downloads/ResearchKit-master/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
-		9C1EF40A1D50E811007E04A6 /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		9C1EF40A1D50E811007E04A6 /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SurveyViewController.swift; path = ../SurveyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				9C1EF3C11D50D95E007E04A6 /* AppDelegate.swift */,
+				9C1EF40A1D50E811007E04A6 /* SurveyViewController.swift */,
 				9C1EF3C31D50D95E007E04A6 /* FirstViewController.swift */,
 				9C1EF3C51D50D95E007E04A6 /* SecondViewController.swift */,
 				9C1EF3C71D50D95E007E04A6 /* Main.storyboard */,
@@ -197,7 +198,6 @@
 		9C1EF4091D50E7DD007E04A6 /* joinstudy */ = {
 			isa = PBXGroup;
 			children = (
-				9C1EF40A1D50E811007E04A6 /* SurveyViewController.swift */,
 			);
 			name = joinstudy;
 			sourceTree = "<group>";
