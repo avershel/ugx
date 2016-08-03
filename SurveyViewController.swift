@@ -54,7 +54,10 @@ class SurveyViewController: UITableViewController {
     
     
     @IBAction func nextpressed(sender: AnyObject) {
-        
+        performSegueWithIdentifier("surveytoconsent", sender: nil)
+//        let taskViewController = ORKTaskViewController(task: ConsentTask, taskRunUUID: nil)
+//        taskViewController.delegate = self
+//        presentViewController(taskViewController, animated: true, completion: nil)
     }
     
     @IBAction func participantpressed(sender: AnyObject) {
@@ -134,6 +137,15 @@ class SurveyViewController: UITableViewController {
 
     }
     
+    
+}
+
+extension SurveyViewController : ORKTaskViewControllerDelegate {
+    
+    func taskViewController(taskViewController: ORKTaskViewController, didFinishWithReason reason: ORKTaskViewControllerFinishReason, error: NSError?) {
+        //Handle results with taskViewController.result
+        taskViewController.dismissViewControllerAnimated(true, completion: nil)
+    }
     
 }
 

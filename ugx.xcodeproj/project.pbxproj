@@ -20,6 +20,33 @@
 		9C1EF4041D50E646007E04A6 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1EF4011D50E61E007E04A6 /* ResearchKit.framework */; };
 		9C1EF4051D50E646007E04A6 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1EF4011D50E61E007E04A6 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C1EF40B1D50E811007E04A6 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF40A1D50E811007E04A6 /* SurveyViewController.swift */; };
+		9CC5D2331D52369600D8108A /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D2321D52369600D8108A /* ConsentDocument.swift */; };
+		9CC5D2351D5236E600D8108A /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D2341D5236E600D8108A /* ConsentTask.swift */; };
+		9CC5D2371D52373A00D8108A /* ConsentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D2361D52373A00D8108A /* ConsentViewController.swift */; };
+		9CC5D2391D523DA700D8108A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D2381D523DA700D8108A /* RegisterViewController.swift */; };
+		9CC5D23B1D5247E300D8108A /* ConsentReviewDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D23A1D5247E300D8108A /* ConsentReviewDocument.swift */; };
+		9CC5D23D1D52481B00D8108A /* ConsentReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D23C1D52481B00D8108A /* ConsentReview.swift */; };
+		9CC5D2401D524DBF00D8108A /* BadConsentSurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D23F1D524DBF00D8108A /* BadConsentSurveyTask.swift */; };
+		9CC5D2421D524DE400D8108A /* TryAgainDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D2411D524DE400D8108A /* TryAgainDocument.swift */; };
+		9CC5D2441D524E1600D8108A /* GnemLateConsent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D2431D524E1600D8108A /* GnemLateConsent.swift */; };
+		9CC5D2461D524ECD00D8108A /* TryAgainTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D2451D524ECD00D8108A /* TryAgainTerms.swift */; };
+		9CC5D2481D524EF900D8108A /* GnemInformedConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D2471D524EF900D8108A /* GnemInformedConsentDocument.swift */; };
+		9CC5D24A1D524FB300D8108A /* GnemValidateDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D2491D524FB300D8108A /* GnemValidateDocument.swift */; };
+		9CC5D24C1D524FCD00D8108A /* GnemAllConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5D24B1D524FCD00D8108A /* GnemAllConsentDocument.swift */; };
+		9CC5D24E1D52502100D8108A /* whatis.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D24D1D52502100D8108A /* whatis.png */; };
+		9CC5D25C1D52504800D8108A /* terms.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D24F1D52504800D8108A /* terms.png */; };
+		9CC5D25D1D52504800D8108A /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2501D52504800D8108A /* lock.png */; };
+		9CC5D25E1D52504800D8108A /* datagather.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2511D52504800D8108A /* datagather.png */; };
+		9CC5D25F1D52504800D8108A /* Syringe-blue-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2521D52504800D8108A /* Syringe-blue-icon.png */; };
+		9CC5D2601D52504800D8108A /* Microscope-blue-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2531D52504800D8108A /* Microscope-blue-icon.png */; };
+		9CC5D2611D52504800D8108A /* health.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2541D52504800D8108A /* health.png */; };
+		9CC5D2621D52504800D8108A /* scope.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2551D52504800D8108A /* scope.png */; };
+		9CC5D2631D52504800D8108A /* tooth.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2561D52504800D8108A /* tooth.png */; };
+		9CC5D2641D52504800D8108A /* Screen Shot 2016-07-11 at 9.58.41 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2571D52504800D8108A /* Screen Shot 2016-07-11 at 9.58.41 AM.png */; };
+		9CC5D2651D52504800D8108A /* heartno1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2581D52504800D8108A /* heartno1.png */; };
+		9CC5D2661D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2591D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png */; };
+		9CC5D2671D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.04 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D25A1D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.04 AM.png */; };
+		9CC5D2681D52504800D8108A /* pills-blue-icon-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D25B1D52504800D8108A /* pills-blue-icon-6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +120,33 @@
 		9C1EF3F41D50DC86007E04A6 /* joinstudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joinstudy.png; sourceTree = "<group>"; };
 		9C1EF3FA1D50E61E007E04A6 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../../../Downloads/ResearchKit-master/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
 		9C1EF40A1D50E811007E04A6 /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SurveyViewController.swift; path = ../SurveyViewController.swift; sourceTree = "<group>"; };
+		9CC5D2321D52369600D8108A /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		9CC5D2341D5236E600D8108A /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		9CC5D2361D52373A00D8108A /* ConsentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentViewController.swift; sourceTree = "<group>"; };
+		9CC5D2381D523DA700D8108A /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9CC5D23A1D5247E300D8108A /* ConsentReviewDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentReviewDocument.swift; sourceTree = "<group>"; };
+		9CC5D23C1D52481B00D8108A /* ConsentReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentReview.swift; sourceTree = "<group>"; };
+		9CC5D23F1D524DBF00D8108A /* BadConsentSurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadConsentSurveyTask.swift; sourceTree = "<group>"; };
+		9CC5D2411D524DE400D8108A /* TryAgainDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryAgainDocument.swift; sourceTree = "<group>"; };
+		9CC5D2431D524E1600D8108A /* GnemLateConsent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnemLateConsent.swift; sourceTree = "<group>"; };
+		9CC5D2451D524ECD00D8108A /* TryAgainTerms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryAgainTerms.swift; sourceTree = "<group>"; };
+		9CC5D2471D524EF900D8108A /* GnemInformedConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnemInformedConsentDocument.swift; sourceTree = "<group>"; };
+		9CC5D2491D524FB300D8108A /* GnemValidateDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnemValidateDocument.swift; sourceTree = "<group>"; };
+		9CC5D24B1D524FCD00D8108A /* GnemAllConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnemAllConsentDocument.swift; sourceTree = "<group>"; };
+		9CC5D24D1D52502100D8108A /* whatis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whatis.png; path = ../../finalugx/dontlose/whatis.png; sourceTree = "<group>"; };
+		9CC5D24F1D52504800D8108A /* terms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = terms.png; path = ../../finalugx/dontlose/terms.png; sourceTree = "<group>"; };
+		9CC5D2501D52504800D8108A /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = ../../finalugx/dontlose/lock.png; sourceTree = "<group>"; };
+		9CC5D2511D52504800D8108A /* datagather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datagather.png; path = ../../finalugx/dontlose/datagather.png; sourceTree = "<group>"; };
+		9CC5D2521D52504800D8108A /* Syringe-blue-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Syringe-blue-icon.png"; path = "../../finalugx/dontlose/Syringe-blue-icon.png"; sourceTree = "<group>"; };
+		9CC5D2531D52504800D8108A /* Microscope-blue-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Microscope-blue-icon.png"; path = "../../finalugx/dontlose/Microscope-blue-icon.png"; sourceTree = "<group>"; };
+		9CC5D2541D52504800D8108A /* health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = health.png; path = ../../finalugx/dontlose/health.png; sourceTree = "<group>"; };
+		9CC5D2551D52504800D8108A /* scope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scope.png; path = ../../finalugx/dontlose/scope.png; sourceTree = "<group>"; };
+		9CC5D2561D52504800D8108A /* tooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tooth.png; path = ../../finalugx/dontlose/tooth.png; sourceTree = "<group>"; };
+		9CC5D2571D52504800D8108A /* Screen Shot 2016-07-11 at 9.58.41 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-07-11 at 9.58.41 AM.png"; path = "../../finalugx/dontlose/Screen Shot 2016-07-11 at 9.58.41 AM.png"; sourceTree = "<group>"; };
+		9CC5D2581D52504800D8108A /* heartno1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heartno1.png; path = ../../finalugx/dontlose/heartno1.png; sourceTree = "<group>"; };
+		9CC5D2591D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-07-11 at 9.57.47 AM.png"; path = "../../finalugx/dontlose/Screen Shot 2016-07-11 at 9.57.47 AM.png"; sourceTree = "<group>"; };
+		9CC5D25A1D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.04 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-07-11 at 9.57.04 AM.png"; path = "../../finalugx/dontlose/Screen Shot 2016-07-11 at 9.57.04 AM.png"; sourceTree = "<group>"; };
+		9CC5D25B1D52504800D8108A /* pills-blue-icon-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pills-blue-icon-6.png"; path = "../../finalugx/dontlose/pills-blue-icon-6.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,9 +206,22 @@
 				9C1EF3C31D50D95E007E04A6 /* FirstViewController.swift */,
 				9C1EF3C51D50D95E007E04A6 /* SecondViewController.swift */,
 				9C1EF3C71D50D95E007E04A6 /* Main.storyboard */,
+				9CC5D2381D523DA700D8108A /* RegisterViewController.swift */,
+				9CC5D2361D52373A00D8108A /* ConsentViewController.swift */,
+				9CC5D2431D524E1600D8108A /* GnemLateConsent.swift */,
+				9CC5D2491D524FB300D8108A /* GnemValidateDocument.swift */,
+				9CC5D23F1D524DBF00D8108A /* BadConsentSurveyTask.swift */,
+				9CC5D2411D524DE400D8108A /* TryAgainDocument.swift */,
 				9C1EF3CA1D50D95E007E04A6 /* Assets.xcassets */,
 				9C1EF3CC1D50D95E007E04A6 /* LaunchScreen.storyboard */,
 				9C1EF3CF1D50D95E007E04A6 /* Info.plist */,
+				9CC5D2321D52369600D8108A /* ConsentDocument.swift */,
+				9CC5D2341D5236E600D8108A /* ConsentTask.swift */,
+				9CC5D23A1D5247E300D8108A /* ConsentReviewDocument.swift */,
+				9CC5D23C1D52481B00D8108A /* ConsentReview.swift */,
+				9CC5D2451D524ECD00D8108A /* TryAgainTerms.swift */,
+				9CC5D2471D524EF900D8108A /* GnemInformedConsentDocument.swift */,
+				9CC5D24B1D524FCD00D8108A /* GnemAllConsentDocument.swift */,
 			);
 			path = ugx;
 			sourceTree = "<group>";
@@ -180,6 +247,20 @@
 		9C1EF3F11D50DB26007E04A6 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				9CC5D24F1D52504800D8108A /* terms.png */,
+				9CC5D2501D52504800D8108A /* lock.png */,
+				9CC5D2511D52504800D8108A /* datagather.png */,
+				9CC5D2521D52504800D8108A /* Syringe-blue-icon.png */,
+				9CC5D2531D52504800D8108A /* Microscope-blue-icon.png */,
+				9CC5D2541D52504800D8108A /* health.png */,
+				9CC5D2551D52504800D8108A /* scope.png */,
+				9CC5D2561D52504800D8108A /* tooth.png */,
+				9CC5D2571D52504800D8108A /* Screen Shot 2016-07-11 at 9.58.41 AM.png */,
+				9CC5D2581D52504800D8108A /* heartno1.png */,
+				9CC5D2591D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png */,
+				9CC5D25A1D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.04 AM.png */,
+				9CC5D25B1D52504800D8108A /* pills-blue-icon-6.png */,
+				9CC5D24D1D52502100D8108A /* whatis.png */,
 				9C1EF3F41D50DC86007E04A6 /* joinstudy.png */,
 				9C1EF3F21D50DB3C007E04A6 /* ugxlogo.png */,
 			);
@@ -331,10 +412,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC5D2631D52504800D8108A /* tooth.png in Resources */,
+				9CC5D2651D52504800D8108A /* heartno1.png in Resources */,
 				9C1EF3F51D50DC86007E04A6 /* joinstudy.png in Resources */,
 				9C1EF3CE1D50D95E007E04A6 /* LaunchScreen.storyboard in Resources */,
 				9C1EF3CB1D50D95E007E04A6 /* Assets.xcassets in Resources */,
+				9CC5D2661D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png in Resources */,
+				9CC5D24E1D52502100D8108A /* whatis.png in Resources */,
+				9CC5D25F1D52504800D8108A /* Syringe-blue-icon.png in Resources */,
+				9CC5D2601D52504800D8108A /* Microscope-blue-icon.png in Resources */,
+				9CC5D25E1D52504800D8108A /* datagather.png in Resources */,
+				9CC5D2621D52504800D8108A /* scope.png in Resources */,
+				9CC5D2641D52504800D8108A /* Screen Shot 2016-07-11 at 9.58.41 AM.png in Resources */,
+				9CC5D2611D52504800D8108A /* health.png in Resources */,
+				9CC5D25D1D52504800D8108A /* lock.png in Resources */,
 				9C1EF3C91D50D95E007E04A6 /* Main.storyboard in Resources */,
+				9CC5D2671D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.04 AM.png in Resources */,
+				9CC5D25C1D52504800D8108A /* terms.png in Resources */,
+				9CC5D2681D52504800D8108A /* pills-blue-icon-6.png in Resources */,
 				9C1EF3F31D50DB3C007E04A6 /* ugxlogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,10 +455,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC5D23B1D5247E300D8108A /* ConsentReviewDocument.swift in Sources */,
+				9CC5D2401D524DBF00D8108A /* BadConsentSurveyTask.swift in Sources */,
 				9C1EF3C61D50D95E007E04A6 /* SecondViewController.swift in Sources */,
+				9CC5D24C1D524FCD00D8108A /* GnemAllConsentDocument.swift in Sources */,
+				9CC5D2421D524DE400D8108A /* TryAgainDocument.swift in Sources */,
 				9C1EF3C21D50D95E007E04A6 /* AppDelegate.swift in Sources */,
+				9CC5D24A1D524FB300D8108A /* GnemValidateDocument.swift in Sources */,
+				9CC5D2371D52373A00D8108A /* ConsentViewController.swift in Sources */,
+				9CC5D2391D523DA700D8108A /* RegisterViewController.swift in Sources */,
 				9C1EF40B1D50E811007E04A6 /* SurveyViewController.swift in Sources */,
+				9CC5D2441D524E1600D8108A /* GnemLateConsent.swift in Sources */,
+				9CC5D23D1D52481B00D8108A /* ConsentReview.swift in Sources */,
+				9CC5D2461D524ECD00D8108A /* TryAgainTerms.swift in Sources */,
+				9CC5D2351D5236E600D8108A /* ConsentTask.swift in Sources */,
 				9C1EF3C41D50D95E007E04A6 /* FirstViewController.swift in Sources */,
+				9CC5D2331D52369600D8108A /* ConsentDocument.swift in Sources */,
+				9CC5D2481D524EF900D8108A /* GnemInformedConsentDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

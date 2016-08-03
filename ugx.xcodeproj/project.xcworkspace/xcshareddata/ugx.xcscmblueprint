@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B57F89C8FF68877D667BF2832B0C6A8B217DE0B9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9665F88A81A4EF8EC9093FA4C138F270E1F6CC42" : 0,
+    "B57F89C8FF68877D667BF2832B0C6A8B217DE0B9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8FE73B44-EC7F-41C0-896D-8C073674E565",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9665F88A81A4EF8EC9093FA4C138F270E1F6CC42" : "..\/finalugx\/dontlose",
+    "B57F89C8FF68877D667BF2832B0C6A8B217DE0B9" : "ugx\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ugx",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ugx.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/avershel\/rkbackup.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9665F88A81A4EF8EC9093FA4C138F270E1F6CC42"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/avershel\/ugx.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B57F89C8FF68877D667BF2832B0C6A8B217DE0B9"
+    }
+  ]
+}
