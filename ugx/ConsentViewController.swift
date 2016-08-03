@@ -18,6 +18,7 @@ class ConsentViewController: UIViewController {
     var username = ""
     var pass = "";
     var email = "";
+    var canceled = false;
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -34,6 +35,9 @@ class ConsentViewController: UIViewController {
         taskViewController.delegate = self
         presentViewController(taskViewController, animated: true, completion: nil)
          index = 1;
+        }
+        else if(canceled == true){
+            performSegueWithIdentifier("consenttosurvey", sender: nil)
         }
 //        else{
 //            performSegueWithIdentifier("consenttoregister", sender: nil)
@@ -213,7 +217,9 @@ extension ConsentViewController : ORKTaskViewControllerDelegate {
         //Canceled or Exited before finish.
         case .Discarded, .Failed, .Saved:
             taskViewController.dismissViewControllerAnimated(true, completion: nil)
-            
+            canceled = true;
+            performSegueWithIdentifier("consenttosurvey", sender: nil)
+
             
             
         }

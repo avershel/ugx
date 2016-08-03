@@ -227,7 +227,10 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="194" id="80u-RL-Tq2"/>
                                                     </constraints>
-                                                    <state key="normal" title="Participant"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="Participant">
+                                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="participantpressed:" destination="AXx-Q8-7hW" eventType="touchUpInside" id="Axk-QS-kBp"/>
                                                     </connections>
@@ -237,7 +240,10 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="194" id="mua-j6-VRd"/>
                                                     </constraints>
-                                                    <state key="normal" title="Caregiver"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="Caregiver">
+                                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="caregiverpressed:" destination="AXx-Q8-7hW" eventType="touchUpInside" id="W7B-E7-tug"/>
                                                     </connections>
@@ -278,7 +284,10 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="194" id="JIj-Pb-JXp"/>
                                                     </constraints>
-                                                    <state key="normal" title="Male"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="Male">
+                                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="malepressed:" destination="AXx-Q8-7hW" eventType="touchUpInside" id="iMD-T5-vNe"/>
                                                     </connections>
@@ -288,7 +297,10 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="194" id="wIN-XT-VKf"/>
                                                     </constraints>
-                                                    <state key="normal" title="Female"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="Female">
+                                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="femalepressed:" destination="AXx-Q8-7hW" eventType="touchUpInside" id="QKx-M7-RCR"/>
                                                     </connections>
@@ -328,7 +340,10 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="129" id="dHx-9U-wBv"/>
                                                     </constraints>
-                                                    <state key="normal" title="6-10"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="6-10">
+                                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="youngpressed:" destination="AXx-Q8-7hW" eventType="touchUpInside" id="eUd-hH-Gof"/>
                                                     </connections>
@@ -338,7 +353,10 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="129" id="lV1-kN-WRp"/>
                                                     </constraints>
-                                                    <state key="normal" title="18+"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="18+">
+                                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="oldpressed:" destination="AXx-Q8-7hW" eventType="touchUpInside" id="bkT-4I-Lrj"/>
                                                     </connections>
@@ -348,7 +366,10 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="129" id="2BO-We-hvI"/>
                                                     </constraints>
-                                                    <state key="normal" title="11-17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="11-17">
+                                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="middlepressed:" destination="AXx-Q8-7hW" eventType="touchUpInside" id="vJL-QX-ZEP"/>
                                                     </connections>
@@ -472,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZNA-9a-F1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1228" y="1393"/>
+            <point key="canvasLocation" x="1193" y="1440"/>
         </scene>
         <!--Consent View Controller-->
         <scene sceneID="few-ri-yXW">
@@ -489,6 +510,7 @@
                     </view>
                     <connections>
                         <segue destination="Lan-Sb-0nm" kind="show" identifier="consenttoregister" id="B19-ZW-8kd"/>
+                        <segue destination="AXx-Q8-7hW" kind="show" identifier="consenttosurvey" id="Gim-3l-PzA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EfT-pd-Xao" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -501,4 +523,7 @@
         <image name="second" width="30" height="30"/>
         <image name="ugxlogo.png" width="576" height="210"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Gim-3l-PzA"/>
+    </inferredMetricsTieBreakers>
 </document>
