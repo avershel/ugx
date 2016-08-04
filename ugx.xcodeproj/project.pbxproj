@@ -47,7 +47,10 @@
 		9CC5D2661D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2591D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png */; };
 		9CC5D2671D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.04 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D25A1D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.04 AM.png */; };
 		9CC5D2681D52504800D8108A /* pills-blue-icon-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D25B1D52504800D8108A /* pills-blue-icon-6.png */; };
-		9CC5D26A1D5255A400D8108A /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D2691D5255A400D8108A /* AppIcon.appiconset */; };
+		9CC5D2701D53AF5900D8108A /* gene.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5D26F1D53AF5900D8108A /* gene.png */; };
+		9CC87F931D53B1C1007929F0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC87F911D53B1C1007929F0 /* home.png */; };
+		9CC87F941D53B1C1007929F0 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC87F921D53B1C1007929F0 /* about.png */; };
+		9CC87F9A1D53BA83007929F0 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 9CC87F991D53BA83007929F0 /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,7 +151,10 @@
 		9CC5D2591D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-07-11 at 9.57.47 AM.png"; path = "../../finalugx/dontlose/Screen Shot 2016-07-11 at 9.57.47 AM.png"; sourceTree = "<group>"; };
 		9CC5D25A1D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.04 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-07-11 at 9.57.04 AM.png"; path = "../../finalugx/dontlose/Screen Shot 2016-07-11 at 9.57.04 AM.png"; sourceTree = "<group>"; };
 		9CC5D25B1D52504800D8108A /* pills-blue-icon-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pills-blue-icon-6.png"; path = "../../finalugx/dontlose/pills-blue-icon-6.png"; sourceTree = "<group>"; };
-		9CC5D2691D5255A400D8108A /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../Documents/iOS/Assets.xcassets/AppIcon.appiconset; sourceTree = "<group>"; };
+		9CC5D26F1D53AF5900D8108A /* gene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gene.png; path = ../../gene.png; sourceTree = "<group>"; };
+		9CC87F911D53B1C1007929F0 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ../../home.png; sourceTree = "<group>"; };
+		9CC87F921D53B1C1007929F0 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = about.png; path = ../../about.png; sourceTree = "<group>"; };
+		9CC87F991D53BA83007929F0 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../Documents/iOS/Assets.xcassets/AppIcon.appiconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,7 +255,10 @@
 		9C1EF3F11D50DB26007E04A6 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				9CC5D2691D5255A400D8108A /* AppIcon.appiconset */,
+				9CC87F991D53BA83007929F0 /* AppIcon.appiconset */,
+				9CC87F911D53B1C1007929F0 /* home.png */,
+				9CC87F921D53B1C1007929F0 /* about.png */,
+				9CC5D26F1D53AF5900D8108A /* gene.png */,
 				9CC5D24F1D52504800D8108A /* terms.png */,
 				9CC5D2501D52504800D8108A /* lock.png */,
 				9CC5D2511D52504800D8108A /* datagather.png */,
@@ -417,13 +426,15 @@
 			files = (
 				9CC5D2631D52504800D8108A /* tooth.png in Resources */,
 				9CC5D2651D52504800D8108A /* heartno1.png in Resources */,
+				9CC87F931D53B1C1007929F0 /* home.png in Resources */,
 				9C1EF3F51D50DC86007E04A6 /* joinstudy.png in Resources */,
+				9CC87F9A1D53BA83007929F0 /* AppIcon.appiconset in Resources */,
+				9CC87F941D53B1C1007929F0 /* about.png in Resources */,
 				9C1EF3CE1D50D95E007E04A6 /* LaunchScreen.storyboard in Resources */,
 				9C1EF3CB1D50D95E007E04A6 /* Assets.xcassets in Resources */,
 				9CC5D2661D52504800D8108A /* Screen Shot 2016-07-11 at 9.57.47 AM.png in Resources */,
 				9CC5D24E1D52502100D8108A /* whatis.png in Resources */,
 				9CC5D25F1D52504800D8108A /* Syringe-blue-icon.png in Resources */,
-				9CC5D26A1D5255A400D8108A /* AppIcon.appiconset in Resources */,
 				9CC5D2601D52504800D8108A /* Microscope-blue-icon.png in Resources */,
 				9CC5D25E1D52504800D8108A /* datagather.png in Resources */,
 				9CC5D2621D52504800D8108A /* scope.png in Resources */,
@@ -435,6 +446,7 @@
 				9CC5D25C1D52504800D8108A /* terms.png in Resources */,
 				9CC5D2681D52504800D8108A /* pills-blue-icon-6.png in Resources */,
 				9C1EF3F31D50DB3C007E04A6 /* ugxlogo.png in Resources */,
+				9CC5D2701D53AF5900D8108A /* gene.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

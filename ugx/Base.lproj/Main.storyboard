@@ -23,7 +23,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to our GNE Myopathy Study" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77O-1Z-bxH">
                                 <rect key="frame" x="169" y="236" width="263" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="263" id="eEk-IR-eCc"/>
+                                    <constraint firstAttribute="width" constant="263" id="Dbo-os-fEm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -32,8 +32,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oF0-az-XKp">
                                 <rect key="frame" x="204" y="372" width="193" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="193" id="JXl-n1-Ec9"/>
-                                    <constraint firstAttribute="height" constant="30" id="YkA-Rl-fBy"/>
+                                    <constraint firstAttribute="height" constant="30" id="d0Q-CJ-ePq"/>
+                                    <constraint firstAttribute="width" constant="193" id="dXh-pC-3wY"/>
                                 </constraints>
                                 <state key="normal" title="View Privacy Policy"/>
                                 <connections>
@@ -43,24 +43,18 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqu-S9-Lds">
                                 <rect key="frame" x="204" y="410" width="193" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="mug-3w-qQR"/>
+                                    <constraint firstAttribute="height" constant="30" id="9bJ-6h-T74"/>
                                 </constraints>
                                 <state key="normal" title="View Terms &amp; Conditions"/>
                                 <connections>
                                     <action selector="termsAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="hdA-0T-9tL"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ugxlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="iFr-KP-Ahv">
-                                <rect key="frame" x="180" y="105" width="240" height="75"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="7HC-nz-LdS"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="We1-1e-yMw">
                                 <rect key="frame" x="235" y="471" width="130" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="XqV-i2-ua0"/>
-                                    <constraint firstAttribute="height" constant="45" id="seA-pP-Kq5"/>
+                                    <constraint firstAttribute="height" constant="45" id="WSI-g2-ial"/>
+                                    <constraint firstAttribute="width" constant="130" id="gY1-fY-dFq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Join Study!">
@@ -70,25 +64,53 @@
                                     <action selector="joinStudyAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="a7k-Yp-Nqo"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ugxlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="iFr-KP-Ahv">
+                                <rect key="frame" x="180" y="28" width="240" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="npi-ag-1bg"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gene.png" translatesAutoresizingMaskIntoConstraints="NO" id="9dA-gj-jWt">
+                                <rect key="frame" x="234" y="167" width="132" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="FCC-ha-wye"/>
+                                    <constraint firstAttribute="width" constant="132" id="g7D-ZU-6zy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrR-pX-MQj">
+                                <rect key="frame" x="0.0" y="111" width="600" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="BbY-dF-1md"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="oF0-az-XKp" firstAttribute="leading" secondItem="fqu-S9-Lds" secondAttribute="leading" id="0zT-uL-GDe"/>
-                            <constraint firstItem="oF0-az-XKp" firstAttribute="trailing" secondItem="fqu-S9-Lds" secondAttribute="trailing" id="86i-iq-kt6"/>
-                            <constraint firstItem="iFr-KP-Ahv" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="85" id="9Le-fN-qgy"/>
-                            <constraint firstItem="fqu-S9-Lds" firstAttribute="centerX" secondItem="We1-1e-yMw" secondAttribute="centerX" id="Dbs-28-lYd"/>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="We1-1e-yMw" secondAttribute="bottom" constant="35" id="FPi-QI-KmX"/>
-                            <constraint firstItem="iFr-KP-Ahv" firstAttribute="centerX" secondItem="77O-1Z-bxH" secondAttribute="centerX" id="KcC-Px-Uuw"/>
-                            <constraint firstItem="77O-1Z-bxH" firstAttribute="top" secondItem="iFr-KP-Ahv" secondAttribute="bottom" constant="56" id="MH1-kt-Jj3"/>
-                            <constraint firstItem="oF0-az-XKp" firstAttribute="top" secondItem="77O-1Z-bxH" secondAttribute="bottom" constant="8" symbolic="YES" id="QPs-ce-i15"/>
-                            <constraint firstItem="We1-1e-yMw" firstAttribute="top" secondItem="fqu-S9-Lds" secondAttribute="bottom" constant="31" id="SD9-jv-hRP"/>
-                            <constraint firstItem="fqu-S9-Lds" firstAttribute="top" secondItem="oF0-az-XKp" secondAttribute="bottom" constant="8" symbolic="YES" id="eeX-tN-EDo"/>
-                            <constraint firstItem="77O-1Z-bxH" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="j47-cN-tiQ"/>
-                            <constraint firstItem="iFr-KP-Ahv" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="u4S-dg-rr6"/>
-                            <constraint firstItem="77O-1Z-bxH" firstAttribute="centerX" secondItem="oF0-az-XKp" secondAttribute="centerX" id="zY9-0g-srQ"/>
+                            <constraint firstItem="9dA-gj-jWt" firstAttribute="centerX" secondItem="77O-1Z-bxH" secondAttribute="centerX" id="72U-hK-Nlz"/>
+                            <constraint firstItem="iFr-KP-Ahv" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="8" symbolic="YES" id="9Hc-sQ-8VD"/>
+                            <constraint firstItem="77O-1Z-bxH" firstAttribute="top" secondItem="9dA-gj-jWt" secondAttribute="bottom" constant="30" id="FKL-lm-EA4"/>
+                            <constraint firstItem="9dA-gj-jWt" firstAttribute="top" secondItem="qrR-pX-MQj" secondAttribute="bottom" constant="55" id="OxU-sC-dDT"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="We1-1e-yMw" secondAttribute="bottom" constant="35" id="P86-fV-hTO"/>
+                            <constraint firstItem="77O-1Z-bxH" firstAttribute="centerX" secondItem="oF0-az-XKp" secondAttribute="centerX" id="POV-Eg-KYA"/>
+                            <constraint firstItem="qrR-pX-MQj" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="Rxd-2T-jt8"/>
+                            <constraint firstItem="oF0-az-XKp" firstAttribute="leading" secondItem="fqu-S9-Lds" secondAttribute="leading" id="TTb-v4-kad"/>
+                            <constraint firstAttribute="trailing" secondItem="qrR-pX-MQj" secondAttribute="trailing" id="cL2-Oe-rMn"/>
+                            <constraint firstItem="77O-1Z-bxH" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="exI-sg-gQE"/>
+                            <constraint firstItem="qrR-pX-MQj" firstAttribute="top" secondItem="iFr-KP-Ahv" secondAttribute="bottom" constant="8" symbolic="YES" id="jUg-e8-wK3"/>
+                            <constraint firstItem="fqu-S9-Lds" firstAttribute="top" secondItem="oF0-az-XKp" secondAttribute="bottom" constant="8" symbolic="YES" id="jeh-R1-BoG"/>
+                            <constraint firstItem="oF0-az-XKp" firstAttribute="top" secondItem="77O-1Z-bxH" secondAttribute="bottom" constant="8" symbolic="YES" id="qRs-jS-hsd"/>
+                            <constraint firstItem="oF0-az-XKp" firstAttribute="trailing" secondItem="fqu-S9-Lds" secondAttribute="trailing" id="ttg-tD-lKU"/>
+                            <constraint firstItem="fqu-S9-Lds" firstAttribute="centerX" secondItem="We1-1e-yMw" secondAttribute="centerX" id="v5g-xu-Tma"/>
+                            <constraint firstItem="We1-1e-yMw" firstAttribute="top" secondItem="fqu-S9-Lds" secondAttribute="bottom" constant="31" id="vd2-gj-Yo4"/>
+                            <constraint firstItem="iFr-KP-Ahv" firstAttribute="centerX" secondItem="qrR-pX-MQj" secondAttribute="centerX" id="xCj-kh-2QV"/>
+                            <constraint firstItem="qrR-pX-MQj" firstAttribute="centerX" secondItem="9dA-gj-jWt" secondAttribute="centerX" id="ywV-te-KVu"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home.png" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="joinstudybutton" destination="We1-1e-yMw" id="naK-nX-3xM"/>
                         <outlet property="privacybutton" destination="oF0-az-XKp" id="BNW-u6-vfx"/>
@@ -112,10 +134,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moH-Gs-w6S">
-                                <rect key="frame" x="20" y="135" width="560" height="330"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moH-Gs-w6S">
+                                <rect key="frame" x="20" y="135" width="560" height="511"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">GNE Myopathy (GNEM, HIBM, QSM, DMRV, Nonaka Myopathy or IBM type 2) is a rare, adult-onset, progressive muscle disease with many unanswered questions. More information is needed to better understand how this disease affects people and progresses over time.
+
+The GNEM Disease Monitoring Program (GNEM-DMP) is a way to understand how GNEM affects you and others to help guide researchers so that potential treatments can be developed as fast as possible.
+There are two ways to get involved in the GNEM-DMP: the patient-reported part, or online registry; and the physician-reported part, or natural history study.
+Even if you are participating in another registry, natural history study or clinical trial, you can still participate in the GNEM-DMP.
+You can confidentially record your own GNEM health information in the patient-reported registry of the GNEM-DMP. Only anonymous health information will be made accessible to qualified researchers who are granted permission by the Steering committee. Your personal health information will not be made available to employers, government organizations, insurance companies, educational institutions, nor to your spouse, your family members or your doctor. Please refer to the Privacy Policy for more information.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -140,7 +167,7 @@
                             <constraint firstItem="moH-Gs-w6S" firstAttribute="top" secondItem="gOl-Nz-QwX" secondAttribute="bottom" constant="34" id="efT-ni-Xzb"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="About" image="about.png" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="abouttextview" destination="moH-Gs-w6S" id="WVy-Pd-7ke"/>
                     </connections>
@@ -189,7 +216,12 @@
                                                 <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00A-29-OTf">
                                                     <rect key="frame" x="0.0" y="19" width="600" height="44"/>
                                                     <items>
-                                                        <navigationItem title="Title" id="cq7-fd-oV8">
+                                                        <navigationItem title="Survey" id="cq7-fd-oV8">
+                                                            <barButtonItem key="leftBarButtonItem" title="Cancel" id="kpa-iv-1WL">
+                                                                <connections>
+                                                                    <action selector="cancel:" destination="AXx-Q8-7hW" id="BCc-Mn-4f5"/>
+                                                                </connections>
+                                                            </barButtonItem>
                                                             <barButtonItem key="rightBarButtonItem" title="Next" id="XP4-pI-25u">
                                                                 <connections>
                                                                     <action selector="nextpressed:" destination="AXx-Q8-7hW" id="mrf-eL-i7J"/>
@@ -411,6 +443,7 @@
                         <outlet property="participantbutton" destination="TCP-BR-bX9" id="uab-6T-5os"/>
                         <outlet property="youngbutton" destination="z3x-v2-dq1" id="W8G-r7-jHe"/>
                         <segue destination="cR4-A4-qIb" kind="show" identifier="surveytoconsent" id="mZH-NT-3XO"/>
+                        <segue destination="49e-Tb-3d3" kind="show" identifier="surveytomain" id="N6y-fF-JIj"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccz-1x-3vd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -511,6 +544,7 @@
                     <connections>
                         <segue destination="Lan-Sb-0nm" kind="show" identifier="consenttoregister" id="B19-ZW-8kd"/>
                         <segue destination="AXx-Q8-7hW" kind="show" identifier="consenttosurvey" id="Gim-3l-PzA"/>
+                        <segue destination="49e-Tb-3d3" kind="show" identifier="consenttomain" id="UYM-Lu-uMz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EfT-pd-Xao" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -519,11 +553,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="about.png" width="27" height="27"/>
+        <image name="gene.png" width="960" height="480"/>
+        <image name="home.png" width="27" height="28"/>
         <image name="ugxlogo.png" width="576" height="210"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cA7-tl-aX6"/>
+        <segue reference="Gim-3l-PzA"/>
+        <segue reference="UYM-Lu-uMz"/>
     </inferredMetricsTieBreakers>
 </document>

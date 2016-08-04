@@ -52,6 +52,10 @@ class SurveyViewController: UITableViewController {
     }
     
     
+    @IBAction func cancel(sender: AnyObject) {
+        performSegueWithIdentifier("surveytomain", sender: nil)
+
+    }
     
     @IBAction func nextpressed(sender: AnyObject) {
         performSegueWithIdentifier("surveytoconsent", sender: nil)

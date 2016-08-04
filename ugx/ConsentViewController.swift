@@ -37,7 +37,7 @@ class ConsentViewController: UIViewController {
          index = 1;
         }
         else if(canceled == true){
-            performSegueWithIdentifier("consenttosurvey", sender: nil)
+            performSegueWithIdentifier("consenttomain", sender: nil)
         }
 //        else{
 //            performSegueWithIdentifier("consenttoregister", sender: nil)
@@ -218,7 +218,7 @@ extension ConsentViewController : ORKTaskViewControllerDelegate {
         case .Discarded, .Failed, .Saved:
             taskViewController.dismissViewControllerAnimated(true, completion: nil)
             canceled = true;
-            performSegueWithIdentifier("consenttosurvey", sender: nil)
+            performSegueWithIdentifier("consenttomain", sender: nil)
 
             
             
